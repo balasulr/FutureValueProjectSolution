@@ -35,5 +35,10 @@ namespace FutureValueProject {
         private void btnExit_Click(object sender, EventArgs e) {
             this.Close();
         }
+
+        //Creates an Event to clear Future value when other text boxes are modified
+        private void ClearFutureValue(object sender, EventArgs e) {
+            txtFutureValue.Text = String.Empty;
+        }
     }
 }

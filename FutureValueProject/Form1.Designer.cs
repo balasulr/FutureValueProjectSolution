@@ -83,6 +83,7 @@ namespace FutureValueProject {
             this.txtMonthlyInvestment.Name = "txtMonthlyInvestment";
             this.txtMonthlyInvestment.Size = new System.Drawing.Size(150, 31);
             this.txtMonthlyInvestment.TabIndex = 4;
+            this.txtMonthlyInvestment.TextChanged += new System.EventHandler(this.ClearFutureValue);
             // 
             // txtInterestRate
             // 
@@ -90,6 +91,7 @@ namespace FutureValueProject {
             this.txtInterestRate.Name = "txtInterestRate";
             this.txtInterestRate.Size = new System.Drawing.Size(150, 31);
             this.txtInterestRate.TabIndex = 5;
+            this.txtInterestRate.TextChanged += new System.EventHandler(this.ClearFutureValue);
             // 
             // txtYears
             // 
@@ -97,6 +99,7 @@ namespace FutureValueProject {
             this.txtYears.Name = "txtYears";
             this.txtYears.Size = new System.Drawing.Size(150, 31);
             this.txtYears.TabIndex = 6;
+            this.txtYears.TextChanged += new System.EventHandler(this.ClearFutureValue);
             // 
             // txtFutureValue
             // 
